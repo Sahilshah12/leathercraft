@@ -1,0 +1,60 @@
+/* MaterialSelector.css */
+.material-selector {
+    padding: 20px;
+    background-color: white;
+    height: 100%;
+    overflow-y: auto;
+    border-right: 1px solid var(--color-accent);
+  }
+  
+  .material-category {
+    margin-bottom: 24px;
+  }
+  
+  .category-title {
+    font-family: var(--font-display);
+    font-size: 18px;
+    margin-bottom: 12px;
+    color: var(--color-primary);
+    border-bottom: 2px solid var(--color-accent);
+    padding-bottom: 5px;
+  }
+  
+  .material-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+  
+  .material-item {
+    border: 2px solid transparent;
+    border-radius: var(--border-radius);
+    padding: 10px;
+    cursor: pointer;
+    transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .material-item:hover {
+    border-color: var(--color-secondary);
+  }
+  
+  .material-item.selected {
+    border-color: var(--color-primary);
+    background-color: var(--color-accent);
+  }
+  
+  .material-preview {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 8px;
+    box-shadow: var(--shadow-sm);
+  }
+  
+  .material-name {
+    font-size: 14px;
+    text-align: center;
+  }

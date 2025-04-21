@@ -1,0 +1,22 @@
+/* DesignContext styling */
+.context-menu {
+    position: absolute;
+    background-color: white;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-md);
+    padding: 10px;
+    z-index: 10;
+  }
+  
+  .context-menu-item {
+    padding: 8px 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: var(--border-radius);
+  }
+  
+  .context-menu-item:hover {
+    background-color: var(--color-accent);
+  }

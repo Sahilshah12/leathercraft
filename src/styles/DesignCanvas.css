@@ -1,0 +1,48 @@
+/* DesignCanvas.css */
+.design-canvas {
+    background-color: var(--color-light);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-md);
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .canvas-container {
+    height: calc(100vh - 120px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .canvas-tools {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 8px 12px;
+    border-radius: 30px;
+    box-shadow: var(--shadow-sm);
+  }
+  
+  .zoom-controls {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .zoom-button {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: var(--color-primary);
+    color: white;
+    font-size: 18px;
+  }

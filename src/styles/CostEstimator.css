@@ -1,0 +1,66 @@
+/* CostEstimator.css */
+.cost-estimator {
+    padding: 20px;
+    background-color: white;
+    height: 100%;
+    border-left: 1px solid var(--color-accent);
+    overflow-y: auto;
+  }
+  
+  .estimator-header {
+    font-family: var(--font-display);
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--color-primary);
+  }
+  
+  .cost-breakdown {
+    background-color: var(--color-light);
+    border-radius: var(--border-radius);
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .cost-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  
+  .cost-item:last-child {
+    margin-bottom: 0;
+    padding-top: 10px;
+    border-top: 1px dashed var(--color-secondary);
+    font-weight: bold;
+  }
+  
+  .discount-code {
+    margin: 15px 0;
+  }
+  
+  .discount-input {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .discount-input input {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid var(--color-accent);
+    border-radius: var(--border-radius);
+  }
+  
+  .order-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: var(--color-success);
+  }
+  
+  .order-button:hover {
+    background-color: #1B5E20;
+  }
